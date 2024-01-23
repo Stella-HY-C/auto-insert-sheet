@@ -30,9 +30,9 @@ import java.util.Map;
 @RestController
 public class MainController {
 
-    @PostMapping("/test")
+    @PostMapping("/call")
     public void test(@RequestBody Map<String, Object> params) {
-        System.out.println("test");
+        System.out.println("call");
         System.out.println(params);
 
         // 1. google sheet에 입력하기
